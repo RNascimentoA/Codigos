@@ -49,13 +49,13 @@ for (let x = 0; x < mjogador.length; x++){
     let resultadoderrotas = mderrotas[x]
    
    let statusjogador
-		let saldovitorias = ranqueada()
+   let saldovitorias = ranqueada()
    
-		function ranqueada(a,b){
+        function ranqueada(a,b){
     
-    return resultadovitorias - resultadoderrotas
+        return resultadovitorias - resultadoderrotas
     
-    }
+        }
 
     if (resultadovitorias < 10){
         statusjogador = "Ferro"
